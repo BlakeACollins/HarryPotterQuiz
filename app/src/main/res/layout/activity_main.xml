@@ -1,0 +1,444 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:background="@drawable/dealthyhallows"
+        tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:text="Harry Potter Quiz"
+            android:textColor="@android:color/white"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/question_one_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="How does a Quidditch game end?"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reach 200 points"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_keeper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take out the Keeper"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_snitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catch the Snitch"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_quaffle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catch the Quaffle"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp"
+            android:text="What's guarding the trap door?"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/checkbox_crookshanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crookshanks"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_fluffy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fluffy"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_fang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fang"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_hedwig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hedwig"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_nearly_headless_nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nearly Headless Nick"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_three_headed_dog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="A three headed dog"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/question_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="What type of dragon does Harry face in the first Tri Wizard challenge?"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_chineseFireball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chinese Fireball"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_commonGreenWelsh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Welsh Green"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_swedishShortSnout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swedish Short-Snout"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_hungarianHorntail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hungarian Horntail"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_Slytherin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Who's the ghost of Slytherin?"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/ghost_of_Slytherin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:maxLength="30"
+            tools:ignore="LabelFor" />
+
+
+        <TextView
+            android:id="@+id/question_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="What Deathly Hollow did Harry always have?"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_sword_of_griff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Sword of Gryffindor"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_cloak_of_invisibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Cloak of Invisibility"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_elder_wand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Elder Wand"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_res_stone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="The Resurrection Stone"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Who was the Half-Blood Prince?"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Harry_Potter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harry Potter"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_Severus_Snape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Severus Snape"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_Tom_Riddle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tom Riddle"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/radio_Draco_Malfoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Draco Malfoy"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:onClick="submitQuiz"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>
+
