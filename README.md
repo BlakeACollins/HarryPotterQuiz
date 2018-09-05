@@ -4,8 +4,8 @@ The goal is to create an educational app that quizzes a user about a certain top
 
 What I learned during this project:
 
-Planning my app design before coding.
-Taking an app layout from drawing to XML code.
-Creating, positioning, and styling views.
-Creating interactivity through button clicks and Java code.
-Commenting and documenting your code.
+Planning my app design before coding,
+taking an app layout from drawing to XML code,
+creating, positioning, and styling views,
+creating interactivity through button clicks and Java code, and
+commenting and documenting your code.
